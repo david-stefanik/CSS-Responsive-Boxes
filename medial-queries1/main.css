@@ -1,3 +1,15 @@
 body {
   background: blanchedalmond;
 }
+.a {border-style: outset;
+border-color: aqua ;
+height:175px ;
+width: 125px;}
+.b{border-style: ridge;
+  border-color: aqua ;
+  height:175px ;
+  width: 125px;}
+  .c{border-style: inset; 
+    border-color: aqua ;
+    height:175px ;
+    width: 125px;} }
