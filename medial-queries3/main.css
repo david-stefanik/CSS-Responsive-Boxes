@@ -1,3 +1,48 @@
 body {
   background: peachpuff;
+
+width: 100%;
+height: 100%;
 }
+.a{border-style: ridge;
+border-color: aqua ;
+height: 150px ;
+width: 100%;}
+.b{border-style: ridge;
+  border-color: aqua ;
+height:150px;
+ inlin
+  }
+.c{border-style: ridge;
+    border-color: aqua ;
+    height: 100px ;
+    width: 33%;}
+.d{border-style: ridge;
+      border-color: aqua ;
+      height: 100px ;
+      width: 33%;} 
+.e{border-style: ridge;
+        border-color: aqua ;
+        height: 100px ;
+        width: 30%;}
+.f{border-style: ridge;
+          border-color: aqua ;
+          height: 150px ;
+          width: 100%;} 
+  .g{border-style: ridge;
+            border-color: aqua ;
+            height: 150px ;
+            width: 100%;}
+  .h{border-style: ridge;
+              border-color: aqua ;
+              height: 150px ;
+              width: 100%;}                   
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+}  
+
+

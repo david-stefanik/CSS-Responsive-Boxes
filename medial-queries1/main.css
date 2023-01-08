@@ -3,13 +3,37 @@ body {
 }
 .a {border-style: outset;
 border-color: aqua ;
-height:175px ;
-width: 125px;}
+height: 100px ;
+width: 100%px;}
 .b{border-style: ridge;
   border-color: aqua ;
-  height:175px ;
-  width: 125px;}
+  height: 250px ;
+  width: 100%;}
   .c{border-style: inset; 
     border-color: aqua ;
-    height:175px ;
-    width: 125px;} }
+    height: 100px ;
+    width: 100%;}
+    .container{
+      display: flex;
+      flex-direction: column;}
+   @media (min-width:600px){
+    .container{flex-wrap: wrap;
+    flex-direction:row;
+    }
+   }
+   @media (min-width:600px){
+    .a{
+      width: 90%;
+    }
+   }
+
+   @media (min-width:600px){
+    .b{width: 60%;}
+   }
+   @media (min-width:600px) {
+    .c{width: 30%;
+      height: auto;
+
+    }
+   }
+
